@@ -1,0 +1,13 @@
+.certificates{
+    margin-top: 5rem;
+}
+.each-certi{
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1rem;
+}
+.each-certi h1{
+    font-size: 1.8rem;
+    color: #2d3e3e;
+}

@@ -1,0 +1,70 @@
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    
+}
+.end p{
+    padding-top: 3%;
+    padding-left: 10%;
+    text-align: center;
+    max-width: 94%;
+    color: white;
+    text-align: justify;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.end a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-family: "comic sans ms", Arial;
+}
+.social{
+   padding-top: 4%;
+   padding-left: 40%;
+}
+.social ul {
+    list-style: none;
+    padding: 0;
+   
+  }
+  
+  .social li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .social li:last-child {
+    margin-right: 0;
+  }
+  
+  .social a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+  }
+  
+.copy{
+    padding-top: 3%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+  
+.social a:hover{
+   color: yellow;}
+
+@media screen and (max-width: 600px) {
+      .end p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding-left: 6%;
+      }
+      .social{
+        padding-left: 20%;
+      }
+}

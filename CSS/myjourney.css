@@ -1,0 +1,71 @@
+
+.journey{
+    margin-top: 150px;
+    margin-left: 6%;
+    
+}
+.journey h1{
+    font-size: 3rem;
+    color: #EC2E57;
+    font-family: 'Rubik', sans-serif;
+}
+.journey img{
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.j-text{
+    margin-left: 50%;
+    max-width: 650px;
+    margin-top: -110%;
+}
+.j-text p{
+ padding: 8%;
+ color: #2E3755;
+ line-height: 2rem;
+ font-family: 'Bona Nova', serif;
+ font-size: 1.3rem;
+}
+@media screen and (max-width: 899px) {
+    .journey h1{
+        margin-bottom: 80px;
+    }
+    .journey img{
+        margin-top: 60px;
+        width: 50%;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .j-text{
+        max-width: 700px;
+        margin-top: -130%;
+    }
+    .j-text p{
+     padding: 2%;
+     line-height: 1.7rem;
+     font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 599px) {
+    .journey h1{
+        margin-bottom: 40px;
+    }
+    .journey img{
+        margin-top: 60px;
+        width: 80%;
+        height: auto;
+        padding-bottom: 70px;
+    }
+    .j-text{
+        max-width: 350px;
+        margin-top: 0%;
+        margin-left: 10px;
+
+    }
+    .j-text p{
+     padding: 2%;
+     line-height: 2rem;
+     font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,201 @@
+.education{
+    width: 100%;
+    height: 800px;
+    background-color: #d3e7f8;
+}
+
+.education h1{
+    font-size: 3.5rem;
+    color: #EC2E57;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.academic h2{
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: #2E3755;
+}
+.academic p{
+    padding-top: 1.3%;
+    padding-left: 3%;
+    max-width: 50%;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: #2E3755;
+}
+.line-v{
+    border-left: 2px solid whitesmoke;
+    height: 550px;
+    margin-left: 55%;
+    margin-top: -43%;
+}
+.skill{
+    margin-left: 59%;
+    margin-top: -44%;
+}
+.skill h2{
+    padding-bottom: 2%;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
+    color: #2E3755;
+}
+.skill p{
+    padding-top: 1.3%;
+    padding-left: 1%;
+    padding-bottom: 3%;
+    max-width: 450px;
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: #2E3755;
+}
+.edu-link{
+    padding-top: 5%;
+    margin-left: 43%;
+}
+.edu-link a{
+    font-size: 1.7rem;
+    color: #2E3755;
+
+}
+@media screen and (max-width: 1024px) {
+    .skill{
+        margin-left: 56%;
+        margin-top: -55%;
+    }
+    .line-v{
+        margin-top: -50%;
+        margin-left: 52%}
+        .edu-link{
+            padding-top: 8%;
+            margin-left: 38%;
+        }
+}
+@media screen and (max-width: 899px) {
+    .education{
+        height: 900px;
+    }
+    .skill{
+        margin-left: 56%;
+        margin-top: -74%;
+    }
+    .line-v{
+        margin-top: -83%;
+        margin-left: 52%;
+        height: 630px;}
+        .edu-link{
+            padding-top: 15%;
+            margin-left: 38%;
+        }
+}
+@media screen and (max-width: 768px) {
+    .skill{
+        margin-left: 56%;
+        margin-top: -72%;
+    }
+    .skill h2,.academic h2{
+        font-size: 1.3rem;
+    }
+    .skill p, .academic p{
+        font-size: 1rem;
+    }
+    .edu-link{
+        padding-top: 20%;
+        margin-left: 38%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .skill{
+        margin-top: -84%;
+    }}
+@media screen and (max-width: 640px){
+    .skill{
+        margin-top: -100%;
+    }
+    .line-v{
+        height: 600px;
+        margin-left: 52%;
+        margin-top: -90%;
+    }
+    .edu-link{
+        padding-top: 22%;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 600px){
+    .education{
+        height: 1300px;
+    }
+    .education h1{
+        font-size: 3rem;
+        padding-left: 3%;
+    }
+    .academic p, .skill p{
+        padding-top: 1.3%;
+        padding-left: 6%;
+        max-width: 95%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .skill{
+        margin-left: 3%;
+        margin-top: 0%;
+    }
+    .skill h2,.academic h2{
+        padding-top: 2rem;
+        padding-left: 3%;
+        font-size: 2rem;
+    }
+    .line-v{
+        display: none;
+    }
+    .edu-link{
+        padding-top: 8%;
+        margin-left: 14%;
+    }
+}
+@media screen and (max-width: 499px){
+    .education{
+        height: 1400px;
+    }
+    .skill h2,.academic h2{
+        padding-top: 2rem;
+        padding-left: 3%;
+        font-size: 1.6rem;
+    }
+    .academic p, .skill p{
+        padding-top: 1.3%;
+        padding-left: 6%;
+        max-width: 95%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .edu-link{
+        padding-top: 6%;
+        margin-left: 10%;
+    }}
+@media screen and (max-width: 399px){
+    .education{
+        height: 1750px;
+    }
+    .skill h2,.academic h2{
+        padding-top: 2rem;
+        padding-left: 3%;
+        font-size: 1.6rem;
+    }
+    .academic p, .skill p{
+        padding-top: 1.3%;
+        padding-left: 6%;
+        max-width: 95%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .edu-link{
+        padding-top: 6%;
+        margin-left: 10%;
+    }}

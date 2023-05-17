@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fira+Sans&family=Kanit:wght@500&family=PT+Serif&family=Philosopher&family=Prompt&display=swap');
+
+.mycontainer{
+  margin: 0;
+  padding: 0;
+  margin-top: 3.8rem;
+  background-color: #4A4A4A;
+  height: 653px;
+}
+.mycontainer img{
+  width: 40%;
+  height: auto;
+  margin-left: 60%;
+  padding: 0;
+  margin-top: -45%;
+}
+.welcome-text {
+ padding-top: 10%;
+ max-width: 400px;
+ margin-left: 10%;
+}
+.welcome-text h1{
+  font-size: 3.3rem;
+  font-family: 'Prompt', sans-serif;
+  line-height: 3.5rem;
+  color:azure;
+}
+.welcome-text p{
+  font-size: 1.3rem;
+  font-family: 'Prompt', sans-serif;
+  margin-top: 20px;
+  color:azure;
+}
+.welcome-text a{
+  color: azure;
+}
+
+@media screen and (max-width: 1024px) {
+    .mycontainer img{
+        width: 47%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 54%;
+    margin-top: -51%;
+    }
+}
+@media screen and (max-width: 899px) {
+    .welcome-text{
+        text-align: left;
+        max-width: 270px;
+        margin-left: 5%;
+    }
+    .mycontainer img{
+        width: 50%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 49%;
+    margin-top: -64%;
+    border-radius: 4%;
+    }
+    .welcome-text h1{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+    .welcome-text p{
+        margin-top: 30px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+/* For screens smaller than 768px (i.e. mobile devices) */
+@media screen and (max-width: 600px) {
+    .mycontainer{
+        height: 500px;
+      }
+      .welcome-text{
+        max-width: 360px;
+        padding-top: 30px;
+        margin-left: 9%;
+      }
+    .mycontainer img{
+    display: none;
+    }
+    .welcome-text h1{
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+    .welcome-text p{
+        margin-top: 30px;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+}

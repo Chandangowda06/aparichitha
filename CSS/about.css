@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Caveat:wght@700&family=Fira+Sans&family=Kanit:wght@500&family=PT+Serif&family=Philosopher&family=Prompt&family=Rubik&display=swap');
+
+/* part - I welcome with my img styles */
+.img-a{
+    margin: 0;
+  padding: 0;
+  margin-top: 3.8rem;
+  background-color:#E6F3F1;
+  position: relative;
+  width: 100%;
+  height: 620px;
+}
+.img-wlcm{
+    width: 34%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 55%;
+    margin-top: -37%;
+}
+.img-txt{
+    text-align: left;
+    max-width: 380px;
+    margin-left: 9%;
+    padding-top: 13%;
+}
+.img-txt h1{
+    color: #EC2E57;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    line-height: 3.3rem;
+}
+.img-txt p{
+    margin-top: 20px;
+    color: #2E3755;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+@media screen and (max-width: 1024px) {
+    .img-wlcm{
+        width: 43%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 54%;
+    margin-top: -43%;
+    }
+}
+@media screen and (max-width: 899px) {
+    .img-txt{
+        text-align: left;
+        max-width: 270px;
+        margin-left: 5%;
+        padding-top: 15%;
+    }
+    .img-wlcm{
+        width: 48%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 48%;
+    margin-top: -60%;
+    }
+    .img-txt h1{
+        color: #EC2E57;
+        font-family: 'Kanit', sans-serif;
+        font-size: 3.7rem;
+        line-height: 2.8rem;
+    }
+    .img-txt p{
+        margin-top: 30px;
+        color: #2E3755;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        font-family: 'Fira Sans', sans-serif;
+    }
+}
+@media screen and (max-width: 599px) {
+    .img-wlcm{
+        width: 71%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 15%;
+    margin-top: 10%;
+    }
+    .img-txt h1{
+        color: #EC2E57;
+        font-family: 'Kanit', sans-serif;
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    .img-txt p{
+        margin-top: 25px;
+        color: #2E3755;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        font-family: 'Fira Sans', sans-serif;
+    }
+}
