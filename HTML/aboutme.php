@@ -1,8 +1,8 @@
 <div class="about-me">
     <h1>About me</h1>
     <div class="whoami">
-        <h3>Who am I?</h3>
-        <p>I'm currently a 3rd-semester Computer Science Engineering student with a strong focus on web development.</p>
+        <h3>Who I am?</h3>
+        <p>I'm currently a 4th-semester Computer Science Engineering student with a strong focus on web development.</p>
         <p>With a keen interest in programming, I enjoy delving into various languages and frameworks to bring
             innovative ideas to life.</p>
         <p>Continuous growth and improvement are at the core of my professional journey, and I'm excited to take on new
